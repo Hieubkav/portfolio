@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Rubik } from "next/font/google";
+import { Poppins, Rubik, Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
@@ -14,6 +14,12 @@ const rubik = Rubik({
   subsets: ["latin"],
   weight: "600",
   variable: "--font-rubik",
+});
+const beVietnam = Be_Vietnam_Pro({
+  subsets: ["latin", "vietnamese"],
+  weight: "600",
+  variable: "--font-be-vietnam",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -57,11 +63,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${rubik.variable}`}>
+      <body className={`${poppins.variable} ${rubik.variable} ${beVietnam.variable}`}>
         <main
           className={cn(
-            "flex  relative  break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
-            { "bg-white": "#E6E7EB" }
+            "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20 bg-smoke"
           )}
         >
           {/* NAVBAR ->  */}

@@ -1,11 +1,5 @@
 import { cn } from "@/lib/utils";
-import {
-  Facebook,
-  Linkedin,
-  Twitter,
-  ExternalLink,
-  Github,
-} from "lucide-react";
+import { Facebook, ExternalLink, Github, MessageSquare } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";
@@ -19,14 +13,26 @@ const SocialLinks = () => {
       icon: <Facebook />,
     },
     {
-      name: "Twitter",
-      link: portfolioConfig.socialLinks.twitter,
-      icon: <Twitter />,
+      name: "Zalo",
+      link: portfolioConfig.socialLinks.zalo ?? "https://zalo.me/0948066514",
+      icon: (
+        <img
+          src="/icons/zalo.svg"
+          alt="Zalo"
+          className="h-5 w-5 sm:h-6 sm:w-6"
+        />
+      ),
     },
     {
-      name: "Linkedin",
-      link: portfolioConfig.socialLinks.linkedin,
-      icon: <Linkedin />,
+      name: "Viblo",
+      link: portfolioConfig.socialLinks.viblo ?? "https://viblo.asia/u/Hieubkav",
+      icon: (
+        <img
+          src="/icons/viblo.webp"
+          alt="Viblo"
+          className="h-5 w-5 sm:h-6 sm:w-6"
+        />
+      ),
     },
     {
       name: "External",

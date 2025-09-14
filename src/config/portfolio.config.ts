@@ -1,91 +1,77 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
-  title: "Software Engineer",
-  description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  name: "Trần Mạnh Hiếu",
+  title: "Full-stack Web Developer",
+  description:
+    "Thành công không đến từ may mắn mà đến từ sự kiên trì và học hỏi không ngừng.",
+  location: "Hưng Lợi, Ninh Kiều, Cần Thơ",
 
   // Contact Information
-  email: "taquiimam@example.com", // Replace with actual email if available
+  email: "tranmanhhieu10@gmail.com",
 
   // Social Media Links
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
-    twitter: "https://twitter.com/Taquiimam14",
-    linkedin: "https://www.linkedin.com/in/taqui-imam",
-    external: "https://tinyurl.com/MdTaquiImam",
-    github: "https://github.com/taqui-786", // Assuming this is the GitHub link
+    twitter: "https://viblo.asia/u/Hieubkav", // tạm trỏ về Viblo
+    linkedin: "https://viblo.asia/u/Hieubkav", // tạm trỏ về Viblo
+    external: "https://hieubkav.github.io/HieuCV/",
+    github: "https://github.com/Hieubkav",
+    facebook: "https://www.facebook.com/hieu.tranmanh.39589",
+    zalo: "https://zalo.me/0948066514",
+    viblo: "https://viblo.asia/u/Hieubkav",
   },
 
   // SEO Information
   seo: {
-    ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
-    url: "https://mdtaquiimam.vercel.app",
-    twitterHandle: "@Taquiimam14",
+    ogImage: "https://hieubkav.github.io/HieuCV/og-image.png",
+    url: "https://hieubkav.github.io/HieuCV",
+    twitterHandle: "@Hieubkav",
     keywords: [
-      "md",
-      "taqui",
-      "imam",
-      "Md",
-      "MD",
-      "TAQUI",
-      "Taqui",
-      "Imam",
-      "Imam",
-      "Md Taqui Imam",
-      "md taqui imam",
-      "mdtaqui",
-      "mdtaquiimam",
-      "taqui imam",
-      "Taqui Imam",
-      "Taquiimam",
-      "portfolio",
-      "web developer",
-      "web",
-      "web dev",
-      "developer",
-      "PROGRAMMER ",
-      "programmer ",
-      "MD TAQUI IMAM ",
-      "website",
-      "@Taquiimam",
-      "Taquiimam",
-      "taqui developer",
+      "Tran Manh Hieu",
+      "Trần Mạnh Hiếu",
+      "HieuBKAV",
+      "Laravel",
+      "Fullstack",
+      "Next.js",
+      "React",
+      "Filament",
+      "TALL Stack",
+      "MySQL",
+      "Cần Thơ",
+      "CTU",
+      "Portfolio",
+      "Developer",
     ],
     authors: [
       {
-        name: "Taqui Imam",
-        url: "https://github.com/taqui-786",
+        name: "Trần Mạnh Hiếu",
+        url: "https://github.com/Hieubkav",
       },
     ],
   },
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
+    bio: "Full-stack Web Developer với kinh nghiệm thực chiến; linh hoạt chọn công nghệ theo từng dự án. Tập trung vào chất lượng sản phẩm, trải nghiệm người dùng và triển khai hiệu quả.",
     hobbies: [
-      "Coding",
-      "Playing Games",
-      "Watching Anime",
-      "Tech Blog Writing",
-      "Creating Cool Projects",
+      "Tập trung chất lượng sản phẩm và trải nghiệm người dùng",
+      "Thích làm việc nhóm và hỗ trợ đồng nghiệp",
+      "Học nhanh, thích ứng công nghệ mới",
+      "Đề cao giao tiếp và teamwork",
     ],
     personalInfo: {
-      language: "English UK",
-      nationality: "India",
-      gender: "Male",
+      language: "Tiếng Anh (B1 CEFR)",
+      nationality: "Việt Nam",
+      gender: "Nam",
     },
   },
 
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer",
-      "Blogger",
-      "Gamer",
-      "Creator",
-      "Student",
-      "Contributer",
+      "Next.js",
+      "Laravel",
+      "Convex",
+      "AI Research",
     ],
     // Technical Skills
     programmingLanguages: [
@@ -106,19 +92,27 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
-        name: "C++",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
-        name: "Python",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      },
-      {
-        name: "Java",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        name: "PHP",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
       },
     ],
     frameworks: [
+      {
+        name: "Laravel",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+      },
+      {
+        name: "Livewire",
+        icon: "https://laravel-livewire.com/favicon-32x32.png",
+      },
+      {
+        name: "Alpine.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/alpinejs/alpinejs-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+      },
       {
         name: "React",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -128,24 +122,8 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       },
       {
-        name: "Vue.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-      },
-      {
-        name: "Svelte",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-      },
-      {
-        name: "Bootstrap",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-      },
-      {
-        name: "Material UI",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        name: "Filament",
+        icon: "https://filamentphp.com/images/favicon-32x32.png",
       },
     ],
     tools: [
@@ -158,24 +136,20 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       },
       {
-        name: "VS Code",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-      },
-      {
-        name: "Docker",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-      },
-      {
-        name: "Firebase",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      },
-      {
-        name: "MongoDB",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        name: "MySQL",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       },
       {
         name: "PostgreSQL",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      },
+      {
+        name: "Redis",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+      },
+      {
+        name: "VS Code",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
       },
     ],
   },
@@ -183,145 +157,108 @@ export const portfolioConfig = {
   // Education Information
   education: [
     {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
-      description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
+      degree: "Kỹ thuật phần mềm - K45 (GPA 3.24)",
+      institution: "Đại học Cần Thơ (CTU)",
+      location: "Cần Thơ, Việt Nam",
+      period: "2019 - 2023",
+      description: "GPA: 3.24",
     },
   ],
 
   // Projects Information
   projects: [
     {
-      title: "WePost- A modern, minimalistic social platform.",
+      title: "Glass Try On",
       description:
-        "WePost is a modern, minimalistic social platform for sharing posts, like, follow, and engaging in comments etc.",
-      tags: ["Tanstack-Query", "PostgreSQL", "Shadcn Ui", "Nextjs"],
-      link: "https://we-post-dev.vercel.app",
+        "Ứng dụng thử kính ảo sử dụng Face Mesh. Upload ảnh kính 2D để đeo kính trực tiếp, dễ quản trị và gợi ý kính phù hợp khuôn mặt.",
+      tags: ["Face Mesh", "AI Vision", "WebRTC", "JavaScript", "Canvas API"],
+      link: "https://glass.vitrasau.info.vn/try_on/3",
     },
     {
-      title: "Devzone- A community chat app for devs",
+      title: "thanshoes.vn",
       description:
-        "DevZone is the ultimate chat platform for developers to connect, collaborate, and code together. Join the conversation and level up your coding journey.",
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+        "Website TMĐT giày, tích hợp dữ liệu Sapo. Xử lý nhập hàng TQ, import Excel, tính chi phí nhập tự động, cặp ghép nhập giày tối ưu.",
+      tags: ["TALL stack", "Filament", "MySQL", "Sapo API", "Excel Import"],
+      link: "https://thanshoes.vn/",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Quét Thẻ Uy Tín Cần Thơ",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "Website dịch vụ tín dụng: hệ thống quản lý, xử lý giao dịch, quản lý khách hàng.",
+      tags: ["Laravel", "Payment Gateway", "MySQL", "Security"],
+      link: "https://dichvuthetindungcantho.com/",
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "pkngocnhan.vn",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+        "Phòng khám đa khoa: quản lý bệnh án, lịch hẹn, giới thiệu dịch vụ và bác sĩ.",
+      tags: ["TALL stack", "Filament", "MySQL", "PDF Export"],
+      link: "https://pkngocnhan.vn/",
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "ProHardware",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
-      link: "https://mixcn-ui.vercel.app",
+        "Website bán đồ nội thất: catalog, giỏ hàng, quản lý đơn hàng.",
+      tags: ["Laravel E-commerce", "MySQL", "Payment"],
+      link: "https://prohardware.com.vn/",
     },
     {
-      title: "Rupeespot- All deals Product in one place",
+      title: "VuPhuc Platform (E-commerce)",
       description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
+        "Nền tảng bán bánh cho Vũ Phúc: quản lý sản phẩm, đơn hàng, tracking khách hàng; tích hợp MShopkeeper.",
+      tags: ["Laravel", "E-commerce", "MySQL", "Video.js", "MShopkeeper API"],
+      link: "https://vuphucbaking.com/",
     },
     {
-      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
+      title: "Vũ Phúc LMS",
       description:
-        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
-      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
-      link: "https://formcraft-ti.vercel.app/",
+        "Hệ thống khóa học trực tuyến: quản lý học viên, video streaming, quiz, chứng chỉ.",
+      tags: ["Laravel", "LMS", "Video.js", "MySQL", "Filament"],
+      link: "https://vba.vuphucbaking.com/",
     },
     {
-      title: "KryptoKapital- Investing in Cryptocurreny",
+      title: "Nhà 24h Cafe",
       description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
+        "Trang giới thiệu thương hiệu cafe hiện đại, tối ưu trải nghiệm cuộn và animation.",
+      tags: ["Next.js", "shadcn/ui", "Framer Motion", "react-lenis"],
+      link: "https://dttaikhoanso.vercel.app/",
     },
     {
-      title: "FriendZ - A social media Platform",
+      title: "Bán Acc Thương Mại Điện Tử",
       description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+        "Nền tảng mua bán tài khoản TMĐT với realtime backend, giỏ hàng/checkout và quản trị.",
+      tags: ["Convex", "Next.js", "React", "Tailwind CSS"],
+      link: "https://dttaikhoanso.vercel.app/",
     },
     {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+      title: "Visual Novel: Câu chuyện của Kim Cương 2.0",
+      description: "Web game visual novel cơ bản chạy trên trình duyệt.",
+      tags: ["HTML5", "CSS3", "JavaScript", "GitHub Pages"],
+      link: "https://hieubkav.github.io/visual-novel/",
     },
   ],
 
   // More Links Information
   moreLinks: [
     {
-      title: "Dev.to",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/random_ti",
+      title: "GitHub",
+      description: "Mã nguồn và các dự án cá nhân.",
+      link: "https://github.com/Hieubkav",
     },
     {
-      title: "Hashnode",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Hashnode",
-      link: "https://mdtaquiimam.hashnode.dev/",
+      title: "Viblo",
+      description: "Bài viết chia sẻ kiến thức kỹ thuật.",
+      link: "https://viblo.asia/u/Hieubkav",
     },
     {
-      title: "Medium",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Medium",
-      link: "https://medium.com/@mdtaqui.jhar",
-    },
-    {
-      title: "Daily.Dev",
-      description:
-        "I am also the member of Daily Dev squads and i also upload post on some squads.",
-      link: "https://app.daily.dev/taqui_786",
-    },
-    {
-      title: "Gumroad",
-      description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc.",
-      link: "https://mdtaquijhar.gumroad.com/",
-    },
-    {
-      title: "Buy Me a coffee",
-      description:
-        "Supports my content quality, new topics, and project creation.",
-      link: "https://www.buymeacoffee.com/taquidevloper",
+      title: "Portfolio/CV (cũ)",
+      description: "Phiên bản CV/Portfolio cũ trên GitHub Pages.",
+      link: "https://hieubkav.github.io/HieuCV/",
     },
   ],
 
   // API Keys (should be in .env but referenced here)
   apiKeys: {
-    resendApiKey: "YOUR_RESEND_API_KEY", // This should be loaded from environment variables in a real app
+    resendApiKey: "YOUR_RESEND_API_KEY",
   },
 };

@@ -25,7 +25,8 @@ module.exports = {
     extend: {
       fontFamily:{
         poppins: ['var(--font-poppins)'],
-        rubik: ['var(--font-rubik)']
+        rubik: ['var(--font-rubik)'],
+        vietnam: ['var(--font-be-vietnam)']
       },
       colors: {
         border: "hsl(var(--border))",

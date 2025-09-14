@@ -2,7 +2,6 @@ import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/animation/GithubBtn";
-import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
 
@@ -15,11 +14,17 @@ export default function Home() {
         y={0}
         x={-100}
       >
+        {/* Mobile avatar (above content on small screens) */}
+        <div className="w-full mb-3 lg:hidden flex items-center justify-center">
+          <div className="relative w-full max-w-[520px] h-[58vw] max-h-[520px]">
+            <HeroImage />
+          </div>
+        </div>
         <HeroTexts />
         <div className="h-fit w-full p-4 flex gap-4">
           <SocialLinks />
         </div>
-        <DownLoadResumeBtn />
+        {/* Download Resume button removed as requested */}
       </FramerWrapper>
       {/* RIGHT SIDE image  */}
       <FramerWrapper
