@@ -92,6 +92,10 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
+        name: "Python",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+      {
         name: "PHP",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
       },
@@ -103,7 +107,7 @@ export const portfolioConfig = {
       },
       {
         name: "Livewire",
-        icon: "https://laravel-livewire.com/favicon-32x32.png",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/livewire/livewire-original.svg",
       },
       {
         name: "Alpine.js",
@@ -122,8 +126,12 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       },
       {
+        name: "Convex",
+        icon: "https://pbs.twimg.com/profile_images/1886599096636694528/0Y8VYt94_400x400.png",
+      },
+      {
         name: "Filament",
-        icon: "https://filamentphp.com/images/favicon-32x32.png",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/filamentphp/filamentphp-original.svg",
       },
     ],
     tools: [
@@ -148,8 +156,16 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
       },
       {
+        name: "Supabase",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
+      },
+      {
         name: "VS Code",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+      },
+      {
+        name: "PhpStorm",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phpstorm/phpstorm-original.svg",
       },
     ],
   },
