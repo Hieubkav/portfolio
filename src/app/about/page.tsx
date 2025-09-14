@@ -1,58 +1,37 @@
-import Aboutfooter from "@/components/Aboutfooter";
-import FramerWrapper from "@/components/animation/FramerWrapper";
-import Heading from "@/components/Heading";
-import { Badge } from "@/components/ui/badge";
-import { Circle, Heart, User2 } from "lucide-react";
-import { portfolioConfig } from "@/config/portfolio.config";
-
-const page = () => {
-  const items = portfolioConfig.about.hobbies.map((hobby) => ({ hobby }));
-
+export default function AboutPage() {
   return (
-    // ABOUT PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-      <Badge variant="secondary" className="gap-1.5 py-1 ">
-        <User2 className="h-4 w-4" />
-        About me
-      </Badge>
-      <div className="flex flex-col gap-5">
-        <Heading>
-          {portfolioConfig.title}, based in {portfolioConfig.about.personalInfo.nationality}.
-        </Heading>
+    <section className="w-full max-w-5xl mx-auto px-4">
+      <h1 className="text-4xl md:text-5xl font-bold tracking-tight">About Me</h1>
+      <p className="mt-3 text-xl md:text-2xl text-muted-foreground">
+        Full-stack Web Developer — ship đúng hạn, sạch, hiệu quả.
+      </p>
 
-        <FramerWrapper y={0} x={100}>
-          <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
-            {portfolioConfig.about.bio}
-          </p>
-        </FramerWrapper>
-      </div>
-      <FramerWrapper
-        className="w-full flex flex-row justify-between max-lg:flex-col "
-        y={100}
-        delay={0.3}
-      >
-        <Aboutfooter />
-      </FramerWrapper>
-      <FramerWrapper className="block" y={100} delay={0.31}>
-        <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
-          {" "}
-          <Heart className="h-8 w-8" /> Hobbies
-        </h1>
-        <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
-          {items.map((val, indx) => {
-            return (
-              <div
-                key={indx}
-                className="flex gap-2 justify-center items-center flex-row text-xl text-primary pt-3 max-lg:justify-start "
-              >
-                <Circle className="h-3 w-3" /> {val.hobby}
-              </div>
-            );
-          })}
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+            Giá trị đem lại
+          </h2>
+          <ul className="mt-3 list-disc pl-5 space-y-2 text-lg md:text-xl">
+            <li>Chất lượng ổn định, code dễ bảo trì</li>
+            <li>Trải nghiệm tốt, hiệu năng mượt</li>
+            <li>Viết docs rõ ràng, dễ hiểu</li>
+            <li>Tập trung business value, đo lường được</li>
+          </ul>
         </div>
-      </FramerWrapper>
-    </div>
+        <div>
+          <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+            Sở thích
+          </h2>
+          <ul className="mt-3 list-disc pl-5 space-y-2 text-lg md:text-xl">
+            <li>Cà phê code</li>
+            <li>Gym</li>
+            <li>Cầu lông</li>
+            <li>Học công nghệ mới</li>
+            <li>Giải quyết vấn đề bằng code</li>
+            <li>Không ngừng trau dồi</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   );
-};
-
-export default page;
+}
