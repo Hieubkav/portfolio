@@ -45,14 +45,21 @@ export const metadata: Metadata = {
     url: portfolioConfig.seo.url,
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    images: [
+      {
+        url: "/avatar.webp",
+        width: 1200,
+        height: 1200,
+        alt: portfolioConfig.name,
+      },
+    ],
     siteName: portfolioConfig.name,
   },
   twitter: {
     card: "summary_large_image",
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: [`${portfolioConfig.seo.url}/og-image.png`],
+    images: ["/avatar.webp"],
     creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {
