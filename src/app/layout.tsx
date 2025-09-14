@@ -3,6 +3,7 @@ import { Poppins, Rubik, Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+// SEOProvider removed temporarily due to App Router build incompatibility
 import { portfolioConfig } from "@/config/portfolio.config";
 
 const poppins = Poppins({
@@ -34,10 +35,13 @@ export const metadata: Metadata = {
   keywords: portfolioConfig.seo.keywords,
   authors: portfolioConfig.seo.authors,
   creator: portfolioConfig.name,
+  applicationName: portfolioConfig.name,
+  referrer: "origin-when-cross-origin",
+  category: "portfolio",
 
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "vi_VN",
     url: portfolioConfig.seo.url,
     title: portfolioConfig.name,
     description: portfolioConfig.description,
@@ -62,8 +66,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="vi">
       <body className={`${poppins.variable} ${rubik.variable} ${beVietnam.variable}`}>
+        {/* JSON-LD provider removed for build stability. */}
         <main
           className={cn(
             "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20 bg-smoke"

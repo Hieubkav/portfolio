@@ -4,6 +4,13 @@ import { Badge } from "@/components/ui/badge";
 import { LightbulbIcon } from "lucide-react";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import { portfolioConfig } from "@/config/portfolio.config";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Skills",
+  description:
+    "Kỹ năng kỹ thuật: Next.js, Laravel, React, Tailwind CSS, MySQL, và hơn nữa.",
+};
 
 const skillPage = () => {
   return (

@@ -4,6 +4,13 @@ import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";
 import { Layers } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "Các dự án tiêu biểu: Web, e-commerce, AI vision, TALL stack, Next.js.",
+};
 
 const projectsPage = () => {
   return (

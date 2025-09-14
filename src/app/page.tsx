@@ -3,6 +3,13 @@ import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/animation/GithubBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
+import type { Metadata } from "next";
+import { portfolioConfig } from "@/config/portfolio.config";
+
+export const metadata: Metadata = {
+  title: portfolioConfig.name,
+  description: portfolioConfig.description,
+};
 
 
 export default function Home() {

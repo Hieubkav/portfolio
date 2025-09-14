@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api
+
+# Host
+Host: https://hieubkav.github.io/HieuCV
+
+# Sitemaps
+Sitemap: https://hieubkav.github.io/HieuCV/sitemap.xml

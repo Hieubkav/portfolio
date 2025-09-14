@@ -3,6 +3,13 @@ import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Briefcase } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Education",
+  description:
+    "Học vấn và thành tích: Kỹ thuật phần mềm, Đại học Cần Thơ (GPA 3.24).",
+};
 
 const educationPage = () => {
   return (

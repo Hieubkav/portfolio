@@ -3,6 +3,12 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Phone } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Liên hệ hợp tác hoặc tuyển dụng: email, mạng xã hội, form liên hệ.",
+};
 
 const contactPage = () => {
   return (

@@ -13,6 +13,12 @@ import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import { portfolioConfig } from "@/config/portfolio.config";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "More",
+  description: "Các liên kết thêm: GitHub, Viblo, Portfolio/CV và hơn nữa.",
+};
 
 const morePage = () => {
   return (
@@ -46,7 +52,8 @@ const morePage = () => {
                 <CardFooter>
                   <Link
                     href={value.link}
-                    target="blank"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={cn(
                       buttonVariants({ variant: "default", size: "lg" }),
                       "w-full gap-3"
