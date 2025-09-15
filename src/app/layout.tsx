@@ -74,6 +74,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi">
+      <head>
+        <meta name="color-scheme" content="light" />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://pbs.twimg.com" />
+        <link rel="preconnect" href="https://pbs.twimg.com" crossOrigin="anonymous" />
+      </head>
       <body className={`${poppins.variable} ${rubik.variable} ${beVietnam.variable}`}>
         {/* JSON-LD provider removed for build stability. */}
         <main

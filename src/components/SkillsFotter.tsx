@@ -12,15 +12,19 @@ const SkillsFooter: React.FC<MyComponentProps> = ({ items }) => {
         items.map((item, index) => {
           return (
    
-            <div 
+          <div 
             key={index} 
             className="flex flex-col items-center justify-center gap-2 p-4 rounded-lg hover:bg-accent transition-colors"
           >
-            <img 
-              src={item.icon} 
-              alt={item.name} 
-              className="w-12 h-12 object-contain"
-            />
+            {item.icon ? (
+              <Image
+                src={item.icon}
+                alt={item.name ?? ""}
+                width={48}
+                height={48}
+                className="w-12 h-12 object-contain"
+              />
+            ) : null}
             <span className="text-sm text-center font-medium text-muted-foreground">
               {item.name}
             </span>
