@@ -237,7 +237,7 @@ export const portfolioConfig = {
       description:
         "Trang giới thiệu thương hiệu cafe hiện đại, tối ưu trải nghiệm cuộn và animation.",
       tags: ["Next.js", "shadcn/ui", "Framer Motion", "react-lenis"],
-      link: "https://dttaikhoanso.vercel.app/",
+      link: "https://nha24hcafe.vercel.app/",
     },
     {
       title: "Bán Acc Thương Mại Điện Tử",
