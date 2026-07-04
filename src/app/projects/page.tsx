@@ -1,6 +1,6 @@
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
-import ProjectCards from "@/components/ProjectsCard";
+import ProjectsTabs from "@/components/ProjectsTabs";
 import { Badge } from "@/components/ui/badge";
 import { Layers } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
@@ -31,11 +31,7 @@ const projectsPage = () => {
         </FramerWrapper>
       </div>
 
-      <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
-        {portfolioConfig.projects.map((val, indx) => {
-          return <ProjectCards key={indx} value={val} num={indx} />;
-        })}
-      </div>
+      <ProjectsTabs projects={portfolioConfig.projects} />
     </div>
   );
 };

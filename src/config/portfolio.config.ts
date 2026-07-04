@@ -185,6 +185,7 @@ export const portfolioConfig = {
   projects: [
     {
       title: "VuPhuc Platform (E-commerce)",
+      category: "Laravel",
       description:
         "Nền tảng bán hàng cho Vũ Phúc Baking: quản lý sản phẩm, đơn hàng, khách hàng, nội dung và tích hợp dữ liệu vận hành cho doanh nghiệp.",
       tags: ["Laravel", "PHP", "MySQL", "E-commerce", "REST API"],
@@ -192,13 +193,71 @@ export const portfolioConfig = {
     },
     {
       title: "VietAdmin Dashboard UI",
+      category: "Công nghệ khác",
       description:
         "Admin dashboard UI công khai, gồm dashboard thống kê, quản lý bài viết/sản phẩm/khách hàng, phân quyền, menu builder, homepage component manager và editor nội dung.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Admin Dashboard", "Lexical"],
       link: "https://admin-dashboard-react-opal-chi.vercel.app/",
     },
     {
+      title: "ProHardware",
+      category: "SaaS VietAdmin",
+      description:
+        "Website bán hàng/catalog nội thất triển khai từ core VietAdmin, tập trung trình bày sản phẩm, landing page, nội dung SEO và cấu trúc dễ mở rộng cho quản trị.",
+      tags: ["Next.js", "React", "VietAdmin", "Product Catalog", "SEO"],
+      link: "https://prohardware.com.vn/",
+    },
+    {
+      title: "Thien Kim Wine",
+      category: "SaaS VietAdmin",
+      description:
+        "Website thương hiệu rượu vang xây từ VietAdmin, hỗ trợ landing page, danh mục sản phẩm, nội dung marketing và trải nghiệm giao diện cao cấp.",
+      tags: ["Next.js", "React", "VietAdmin", "Catalog", "Marketing"],
+      link: "https://www.thienkimwine.vn/",
+    },
+    {
+      title: "Dohy Studio",
+      category: "SaaS VietAdmin",
+      description:
+        "Website studio/doanh nghiệp triển khai bằng VietAdmin, quản lý nội dung, dịch vụ, landing page và tối ưu tốc độ ra mắt website cho khách hàng.",
+      tags: ["Next.js", "React", "VietAdmin", "Business Website", "SEO"],
+      link: "https://dohystudio.com/",
+    },
+    {
+      title: "KTEC Vina",
+      category: "SaaS VietAdmin",
+      description:
+        "Website doanh nghiệp B2B xây từ VietAdmin, phục vụ giới thiệu năng lực, sản phẩm/dịch vụ, nội dung SEO và cấu trúc quản trị nội bộ.",
+      tags: ["Next.js", "React", "VietAdmin", "B2B", "SEO"],
+      link: "https://ktec-vina.com.vn/",
+    },
+    {
+      title: "KDC HCM",
+      category: "SaaS VietAdmin",
+      description:
+        "Website doanh nghiệp triển khai bằng VietAdmin, tập trung landing page, nội dung thương hiệu, danh mục dịch vụ và tối ưu chuyển đổi khách hàng.",
+      tags: ["Next.js", "React", "VietAdmin", "Landing Page", "SEO"],
+      link: "https://kdchcm.com/",
+    },
+    {
+      title: "Chi Nhan Store",
+      category: "SaaS VietAdmin",
+      description:
+        "Website bán hàng/giới thiệu cửa hàng triển khai từ VietAdmin, hỗ trợ danh mục sản phẩm, nội dung marketing và quản trị nội dung nhanh.",
+      tags: ["Next.js", "React", "VietAdmin", "Storefront", "SEO"],
+      link: "https://chinhanstore.com/",
+    },
+    {
+      title: "Dien Tran Store",
+      category: "SaaS VietAdmin",
+      description:
+        "Website cửa hàng xây từ VietAdmin, hỗ trợ trình bày sản phẩm/dịch vụ, landing page và quản lý nội dung phù hợp nhu cầu kinh doanh nhỏ.",
+      tags: ["Next.js", "React", "VietAdmin", "Storefront", "CMS"],
+      link: "https://dientranstore.com/",
+    },
+    {
       title: "Shoe Balance - Quản lý nhập hàng Trung Quốc",
+      category: "Công nghệ khác",
       description:
         "Hệ thống nội bộ hỗ trợ doanh nghiệp giày xử lý file dữ liệu, quy đổi tỷ giá, tính chi phí nhập hàng, kiểm soát tồn kho và cân đối số lượng cần nhập.",
       tags: ["Next.js", "TypeScript", "Excel Import", "Inventory", "Business Tool"],
@@ -206,6 +265,7 @@ export const portfolioConfig = {
     },
     {
       title: "pkngocnhan.vn",
+      category: "Laravel",
       description:
         "Website y khoa chính thức hỗ trợ giới thiệu dịch vụ, bác sĩ, đặt lịch hẹn và quản trị nội dung cho phòng khám.",
       tags: ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap"],
@@ -213,6 +273,7 @@ export const portfolioConfig = {
     },
     {
       title: "Quét Thẻ Uy Tín Cần Thơ",
+      category: "Laravel",
       description:
         "Website dịch vụ tài chính tại Cần Thơ, hỗ trợ giới thiệu dịch vụ, quản trị nội dung, tối ưu SEO và luồng chuyển đổi khách hàng.",
       tags: ["Laravel", "PHP", "MySQL", "SEO", "Business Website"],
@@ -220,6 +281,7 @@ export const portfolioConfig = {
     },
     {
       title: "Nhà 24h Cafe",
+      category: "Công nghệ khác",
       description:
         "Trang giới thiệu thương hiệu cafe hiện đại, tối ưu trải nghiệm cuộn, animation và cách trình bày visual cho landing page.",
       tags: ["Next.js", "shadcn/ui", "Framer Motion", "react-lenis"],
@@ -227,20 +289,15 @@ export const portfolioConfig = {
     },
     {
       title: "Glass Try On",
+      category: "Công nghệ khác",
       description:
         "Ứng dụng thử kính ảo sử dụng Face Mesh. Upload ảnh kính 2D để đeo kính trực tiếp, dễ quản trị và gợi ý kính phù hợp khuôn mặt.",
       tags: ["Face Mesh", "AI Vision", "WebRTC", "JavaScript", "Canvas API"],
       link: "https://glass.vitrasau.info.vn/try_on/3",
     },
     {
-      title: "System React Admin",
-      description:
-        "Bản thử nghiệm cấu hình module admin, dependency module, module commerce/user/marketing và component dùng lại để giảm trùng lặp trong dashboard.",
-      tags: ["React", "TypeScript", "Module Config", "Admin UI"],
-      link: "https://system-react-admin.vercel.app/",
-    },
-    {
       title: "Laravel Inertia React Core",
+      category: "Laravel",
       description:
         "Core Laravel + Inertia.js + React + Tailwind CSS, dùng làm nền tảng khởi tạo nhanh ứng dụng web full-stack có backend Laravel và frontend React.",
       tags: ["Laravel", "Inertia.js", "React", "Tailwind CSS", "PHP"],
@@ -251,13 +308,13 @@ export const portfolioConfig = {
   // More Links Information
   moreLinks: [
     {
-      title: "GitHub chính",
-      description: "Các dự án React, NextJS, admin dashboard và core mới.",
+      title: "GitHub Hieubkav",
+      description: "GitHub chính, chứa nhiều dự án Laravel, website khách hàng và công cụ nội bộ.",
       link: "https://github.com/hieubkbk10-hue",
     },
     {
-      title: "GitHub cũ",
-      description: "Một số dự án Laravel, website khách hàng và công cụ nội bộ trước đây.",
+      title: "GitHub Hieubkav Legacy",
+      description: "GitHub chính thứ hai, chứa các dự án cũ hơn, Laravel, website khách hàng và source tham khảo.",
       link: "https://github.com/Hieubkav",
     },
     {

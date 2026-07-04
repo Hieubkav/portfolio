@@ -14,6 +14,7 @@ import { ArrowUpRight } from "lucide-react";
 interface ProjectCardProps {
   value: {
     title: string;
+    category?: string;
     description: string;
     tags: string[];
     link: string;
@@ -32,6 +33,11 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
     >
       <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
         <CardHeader className="pb-2">
+          {value.category && (
+            <span className="mb-2 w-fit rounded-full bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-700">
+              {value.category}
+            </span>
+          )}
           <CardTitle className="text-xl font-bold text-primary">{value.title}</CardTitle>
         </CardHeader>
         
