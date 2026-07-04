@@ -14,7 +14,7 @@ const HeroImage = () => {
       {/* avatar circle */}
       <div className="relative w-[58vw] lg:w-[36vw] max-w-[380px] lg:max-w-[520px] aspect-square rounded-full overflow-hidden ring-1 ring-sky-200/60 shadow-2xl bg-white/30 backdrop-blur-[1px]">
         <Image
-          src="/avatar.webp"
+          src="/avatar.png"
           alt="Portrait of Tran Manh Hieu"
           loading="eager"
           priority

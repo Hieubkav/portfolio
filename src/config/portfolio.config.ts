@@ -1,7 +1,7 @@
 export const portfolioConfig = {
   // Basic Information
   name: "Trần Mạnh Hiếu",
-  title: "Full-stack Developer ReactJS/NextJS/Laravel tại Cần Thơ",
+  title: "Full-stack Web Developer tại Cần Thơ",
   description:
     "Full-stack Developer tại Cần Thơ, chuyên ReactJS, NextJS, Laravel, REST API, dashboard quản trị và hệ thống thương mại điện tử.",
   location: "Hưng Lợi, Ninh Kiều, Cần Thơ",
@@ -13,7 +13,6 @@ export const portfolioConfig = {
   socialLinks: {
     twitter: "https://viblo.asia/u/Hieubkav", // tạm trỏ về Viblo
     linkedin: "https://viblo.asia/u/Hieubkav", // tạm trỏ về Viblo
-    external: "https://tranmanhhieu-portfolio.vercel.app/",
     github: "https://github.com/hieubkbk10-hue",
     facebook: "https://www.facebook.com/hieu.tranmanh.39589",
     zalo: "https://zalo.me/0948066514",
@@ -44,7 +43,7 @@ export const portfolioConfig = {
     authors: [
       {
         name: "Trần Mạnh Hiếu",
-        url: "https://github.com/Hieubkav",
+        url: "https://github.com/hieubkbk10-hue",
       },
     ],
   },
@@ -70,8 +69,8 @@ export const portfolioConfig = {
     roles: [
       "ReactJS/NextJS",
       "Laravel",
-      "RESTful API",
-      "Admin Dashboard",
+      "REST API",
+      "Admin UI",
       "Convex",
     ],
     // Technical Skills
@@ -185,20 +184,6 @@ export const portfolioConfig = {
   // Projects Information
   projects: [
     {
-      title: "VietAdmin NextJS - SaaS/Admin Dashboard Core",
-      description:
-        "Core admin web app dùng NextJS App Router, React, TypeScript và Convex realtime. Hỗ trợ dashboard quản trị, cấu hình module, CRUD, landing pages, SEO panel, media/editor và nền tảng mở rộng cho nhiều website doanh nghiệp.",
-      tags: ["Next.js", "React", "TypeScript", "Convex", "Realtime", "Admin Dashboard"],
-      link: "https://github.com/hieubkbk10-hue/Saas_fullstack_web",
-    },
-    {
-      title: "Pocket Trade - Realtime Pokemon TCG Trading Platform",
-      description:
-        "Ứng dụng web thương mại phục vụ trao đổi thẻ game thời gian thực, tích hợp API dữ liệu, đồng bộ danh mục thẻ, trạng thái thương lượng giao dịch và lịch sử trao đổi trực tiếp giữa người dùng.",
-      tags: ["Next.js", "React", "TypeScript", "Convex", "Realtime", "Tailwind CSS"],
-      link: "https://pokemon-tcgpocket-trade.vercel.app/",
-    },
-    {
       title: "VuPhuc Platform (E-commerce)",
       description:
         "Nền tảng bán hàng cho Vũ Phúc Baking: quản lý sản phẩm, đơn hàng, khách hàng, nội dung và tích hợp dữ liệu vận hành cho doanh nghiệp.",
@@ -206,18 +191,18 @@ export const portfolioConfig = {
       link: "https://vuphucbaking.com/",
     },
     {
-      title: "Shoe Balance - Quản lý nhập hàng Trung Quốc",
+      title: "VietAdmin Dashboard UI",
       description:
-        "Hệ thống nội bộ hỗ trợ quy đổi tỷ giá, tính chi phí nhập hàng, kiểm soát dòng tiền và cân đối doanh thu nhập hàng giày từ Trung Quốc.",
-      tags: ["Next.js", "React", "TypeScript", "Convex", "Business Tool"],
-      link: "https://shoe-balance.vercel.app/",
+        "Admin dashboard UI công khai, gồm dashboard thống kê, quản lý bài viết/sản phẩm/khách hàng, phân quyền, menu builder, homepage component manager và editor nội dung.",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Admin Dashboard", "Lexical"],
+      link: "https://admin-dashboard-react-opal-chi.vercel.app/",
     },
     {
-      title: "Cổng tra cứu hóa đơn điện tử",
+      title: "Shoe Balance - Quản lý nhập hàng Trung Quốc",
       description:
-        "Ứng dụng web hỗ trợ doanh nghiệp nhập hóa đơn, tra cứu và đối soát dữ liệu hóa đơn điện tử bảo mật, xử lý nhanh khối lượng lớn thông tin hóa đơn đối tác.",
-      tags: ["Laravel", "PHP", "MySQL", "JavaScript", "Data Management"],
-      link: "https://einvoicehhd.com.vn/",
+        "Hệ thống nội bộ hỗ trợ doanh nghiệp giày xử lý file dữ liệu, quy đổi tỷ giá, tính chi phí nhập hàng, kiểm soát tồn kho và cân đối số lượng cần nhập.",
+      tags: ["Next.js", "TypeScript", "Excel Import", "Inventory", "Business Tool"],
+      link: "https://shoe-balance.vercel.app/",
     },
     {
       title: "pkngocnhan.vn",
@@ -236,7 +221,7 @@ export const portfolioConfig = {
     {
       title: "Nhà 24h Cafe",
       description:
-        "Trang giới thiệu thương hiệu cafe hiện đại, tối ưu trải nghiệm cuộn và animation.",
+        "Trang giới thiệu thương hiệu cafe hiện đại, tối ưu trải nghiệm cuộn, animation và cách trình bày visual cho landing page.",
       tags: ["Next.js", "shadcn/ui", "Framer Motion", "react-lenis"],
       link: "https://nha24hcafe.vercel.app/",
     },
@@ -247,29 +232,38 @@ export const portfolioConfig = {
       tags: ["Face Mesh", "AI Vision", "WebRTC", "JavaScript", "Canvas API"],
       link: "https://glass.vitrasau.info.vn/try_on/3",
     },
+    {
+      title: "System React Admin",
+      description:
+        "Bản thử nghiệm cấu hình module admin, dependency module, module commerce/user/marketing và component dùng lại để giảm trùng lặp trong dashboard.",
+      tags: ["React", "TypeScript", "Module Config", "Admin UI"],
+      link: "https://system-react-admin.vercel.app/",
+    },
+    {
+      title: "Laravel Inertia React Core",
+      description:
+        "Core Laravel + Inertia.js + React + Tailwind CSS, dùng làm nền tảng khởi tạo nhanh ứng dụng web full-stack có backend Laravel và frontend React.",
+      tags: ["Laravel", "Inertia.js", "React", "Tailwind CSS", "PHP"],
+      link: "https://github.com/hieubkbk10-hue/core_laravel10x_inertia_reactjs",
+    },
   ],
 
   // More Links Information
   moreLinks: [
     {
-      title: "GitHub",
-      description: "Mã nguồn và các dự án cá nhân.",
+      title: "GitHub chính",
+      description: "Các dự án React, NextJS, admin dashboard và core mới.",
       link: "https://github.com/hieubkbk10-hue",
+    },
+    {
+      title: "GitHub cũ",
+      description: "Một số dự án Laravel, website khách hàng và công cụ nội bộ trước đây.",
+      link: "https://github.com/Hieubkav",
     },
     {
       title: "Viblo",
       description: "Bài viết chia sẻ kiến thức kỹ thuật.",
       link: "https://viblo.asia/u/Hieubkav",
     },
-    {
-      title: "Portfolio/CV (cũ)",
-      description: "Phiên bản CV/Portfolio cũ trên GitHub Pages.",
-      link: "https://hieubkav.github.io/HieuCV/",
-    },
   ],
-
-  // API Keys (should be in .env but referenced here)
-  apiKeys: {
-    resendApiKey: "YOUR_RESEND_API_KEY",
-  },
 };

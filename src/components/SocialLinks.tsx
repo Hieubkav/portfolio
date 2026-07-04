@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Facebook, ExternalLink, Github } from "lucide-react";
+import { Facebook, Github } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import Image from "next/image";
@@ -42,11 +42,6 @@ const SocialLinks = () => {
       ),
     },
     {
-      name: "External",
-      link: portfolioConfig.socialLinks.external,
-      icon: <ExternalLink />,
-    },
-    {
       name: "Github",
       link: portfolioConfig.socialLinks.github,
       icon: <Github />,
@@ -62,6 +57,7 @@ const SocialLinks = () => {
             <Link
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={itm.name}
               href={itm.link}
               className={cn(
                 buttonVariants({ variant: "outline", size: "icon" })

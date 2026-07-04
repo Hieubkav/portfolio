@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description: portfolioConfig.description,
     images: [
       {
-        url: "/avatar.webp",
+        url: "/avatar.png",
         width: 1200,
         height: 1200,
         alt: portfolioConfig.name,
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: portfolioConfig.name,
     description: portfolioConfig.description,
-    images: ["/avatar.webp"],
+    images: ["/avatar.png"],
     creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {

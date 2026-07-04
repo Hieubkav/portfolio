@@ -3,7 +3,7 @@ export default function AboutPage() {
     <section className="w-full max-w-5xl mx-auto px-4">
       <h1 className="text-4xl md:text-5xl font-bold tracking-tight">About Me</h1>
       <p className="mt-3 text-xl md:text-2xl text-muted-foreground">
-        Full-stack Web Developer — ship đúng hạn, sạch, hiệu quả.
+        Full-stack Web Developer tại Cần Thơ, làm sản phẩm đúng hạn, sạch và hiệu quả.
       </p>
 
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">

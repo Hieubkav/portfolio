@@ -79,7 +79,7 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
               "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group"
             )}
           >
-            Visit Project 
+            Xem dự án
             <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
           </Link>
         </CardFooter>
