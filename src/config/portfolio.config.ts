@@ -1,9 +1,9 @@
 export const portfolioConfig = {
   // Basic Information
   name: "Trần Mạnh Hiếu",
-  title: "Full-stack Web Developer",
+  title: "Full-stack Developer ReactJS/NextJS/Laravel tại Cần Thơ",
   description:
-    "Thành công không đến từ may mắn mà đến từ sự kiên trì và học hỏi không ngừng.",
+    "Full-stack Developer tại Cần Thơ, chuyên ReactJS, NextJS, Laravel, REST API, dashboard quản trị và hệ thống thương mại điện tử.",
   location: "Hưng Lợi, Ninh Kiều, Cần Thơ",
 
   // Contact Information
@@ -13,8 +13,8 @@ export const portfolioConfig = {
   socialLinks: {
     twitter: "https://viblo.asia/u/Hieubkav", // tạm trỏ về Viblo
     linkedin: "https://viblo.asia/u/Hieubkav", // tạm trỏ về Viblo
-    external: "https://hieubkav.github.io/HieuCV/",
-    github: "https://github.com/Hieubkav",
+    external: "https://tranmanhhieu-portfolio.vercel.app/",
+    github: "https://github.com/hieubkbk10-hue",
     facebook: "https://www.facebook.com/hieu.tranmanh.39589",
     zalo: "https://zalo.me/0948066514",
     viblo: "https://viblo.asia/u/Hieubkav",
@@ -22,8 +22,8 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    ogImage: "https://hieubkav.github.io/HieuCV/og-image.png",
-    url: "https://hieubkav.github.io/HieuCV",
+    ogImage: "https://tranmanhhieu-portfolio.vercel.app/og-image.png",
+    url: "https://tranmanhhieu-portfolio.vercel.app",
     twitterHandle: "@Hieubkav",
     keywords: [
       "Tran Manh Hieu",
@@ -51,7 +51,7 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "Full-stack Web Developer với kinh nghiệm thực chiến; linh hoạt chọn công nghệ theo từng dự án. Tập trung vào chất lượng sản phẩm, trải nghiệm người dùng và triển khai hiệu quả.",
+    bio: "Full-stack Web Developer tại Cần Thơ với kinh nghiệm thực chiến xây dựng web app, dashboard quản trị, thương mại điện tử và REST API bằng ReactJS, NextJS, TypeScript, Laravel, MySQL và Convex realtime.",
     hobbies: [
       "Tập trung chất lượng sản phẩm và trải nghiệm người dùng",
       "Thích làm việc nhóm và hỗ trợ đồng nghiệp",
@@ -68,10 +68,11 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "Next.js",
+      "ReactJS/NextJS",
       "Laravel",
+      "RESTful API",
+      "Admin Dashboard",
       "Convex",
-      "AI Research",
     ],
     // Technical Skills
     programmingLanguages: [
@@ -184,53 +185,53 @@ export const portfolioConfig = {
   // Projects Information
   projects: [
     {
-      title: "Glass Try On",
+      title: "VietAdmin NextJS - SaaS/Admin Dashboard Core",
       description:
-        "Ứng dụng thử kính ảo sử dụng Face Mesh. Upload ảnh kính 2D để đeo kính trực tiếp, dễ quản trị và gợi ý kính phù hợp khuôn mặt.",
-      tags: ["Face Mesh", "AI Vision", "WebRTC", "JavaScript", "Canvas API"],
-      link: "https://glass.vitrasau.info.vn/try_on/3",
+        "Core admin web app dùng NextJS App Router, React, TypeScript và Convex realtime. Hỗ trợ dashboard quản trị, cấu hình module, CRUD, landing pages, SEO panel, media/editor và nền tảng mở rộng cho nhiều website doanh nghiệp.",
+      tags: ["Next.js", "React", "TypeScript", "Convex", "Realtime", "Admin Dashboard"],
+      link: "https://github.com/hieubkbk10-hue/Saas_fullstack_web",
     },
     {
-      title: "thanshoes.vn",
+      title: "Pocket Trade - Realtime Pokemon TCG Trading Platform",
       description:
-        "Website TMĐT giày, tích hợp dữ liệu Sapo. Xử lý nhập hàng TQ, import Excel, tính chi phí nhập tự động, cặp ghép nhập giày tối ưu.",
-      tags: ["TALL stack", "Filament", "MySQL", "Sapo API", "Excel Import"],
-      link: "https://thanshoes.vn/",
-    },
-    {
-      title: "Quét Thẻ Uy Tín Cần Thơ",
-      description:
-        "Website dịch vụ tín dụng: hệ thống quản lý, xử lý giao dịch, quản lý khách hàng.",
-      tags: ["Laravel", "Payment Gateway", "MySQL", "Security"],
-      link: "https://dichvuthetindungcantho.com/",
-    },
-    {
-      title: "pkngocnhan.vn",
-      description:
-        "Phòng khám đa khoa: quản lý bệnh án, lịch hẹn, giới thiệu dịch vụ và bác sĩ.",
-      tags: ["TALL stack", "Filament", "MySQL", "PDF Export"],
-      link: "https://pkngocnhan.vn/",
-    },
-    {
-      title: "ProHardware",
-      description:
-        "Website bán đồ nội thất: catalog, giỏ hàng, quản lý đơn hàng.",
-      tags: ["Laravel E-commerce", "MySQL", "Payment"],
-      link: "https://prohardware.com.vn/",
+        "Ứng dụng web thương mại phục vụ trao đổi thẻ game thời gian thực, tích hợp API dữ liệu, đồng bộ danh mục thẻ, trạng thái thương lượng giao dịch và lịch sử trao đổi trực tiếp giữa người dùng.",
+      tags: ["Next.js", "React", "TypeScript", "Convex", "Realtime", "Tailwind CSS"],
+      link: "https://pokemon-tcgpocket-trade.vercel.app/",
     },
     {
       title: "VuPhuc Platform (E-commerce)",
       description:
-        "Nền tảng bán bánh cho Vũ Phúc: quản lý sản phẩm, đơn hàng, tracking khách hàng; tích hợp MShopkeeper.",
-      tags: ["Laravel", "E-commerce", "MySQL", "Video.js", "MShopkeeper API"],
+        "Nền tảng bán hàng cho Vũ Phúc Baking: quản lý sản phẩm, đơn hàng, khách hàng, nội dung và tích hợp dữ liệu vận hành cho doanh nghiệp.",
+      tags: ["Laravel", "PHP", "MySQL", "E-commerce", "REST API"],
       link: "https://vuphucbaking.com/",
     },
     {
-      title: "Vũ Phúc LMS",
+      title: "Shoe Balance - Quản lý nhập hàng Trung Quốc",
       description:
-        "Hệ thống khóa học trực tuyến: quản lý học viên, video streaming, quiz, chứng chỉ.",
-      tags: ["Laravel", "LMS", "Video.js", "MySQL", "Filament"],
-      link: "https://vba.vuphucbaking.com/",
+        "Hệ thống nội bộ hỗ trợ quy đổi tỷ giá, tính chi phí nhập hàng, kiểm soát dòng tiền và cân đối doanh thu nhập hàng giày từ Trung Quốc.",
+      tags: ["Next.js", "React", "TypeScript", "Convex", "Business Tool"],
+      link: "https://shoe-balance.vercel.app/",
+    },
+    {
+      title: "Cổng tra cứu hóa đơn điện tử",
+      description:
+        "Ứng dụng web hỗ trợ doanh nghiệp nhập hóa đơn, tra cứu và đối soát dữ liệu hóa đơn điện tử bảo mật, xử lý nhanh khối lượng lớn thông tin hóa đơn đối tác.",
+      tags: ["Laravel", "PHP", "MySQL", "JavaScript", "Data Management"],
+      link: "https://einvoicehhd.com.vn/",
+    },
+    {
+      title: "pkngocnhan.vn",
+      description:
+        "Website y khoa chính thức hỗ trợ giới thiệu dịch vụ, bác sĩ, đặt lịch hẹn và quản trị nội dung cho phòng khám.",
+      tags: ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap"],
+      link: "https://pkngocnhan.vn/",
+    },
+    {
+      title: "Quét Thẻ Uy Tín Cần Thơ",
+      description:
+        "Website dịch vụ tài chính tại Cần Thơ, hỗ trợ giới thiệu dịch vụ, quản trị nội dung, tối ưu SEO và luồng chuyển đổi khách hàng.",
+      tags: ["Laravel", "PHP", "MySQL", "SEO", "Business Website"],
+      link: "https://dichvuthetindungcantho.com/",
     },
     {
       title: "Nhà 24h Cafe",
@@ -240,17 +241,11 @@ export const portfolioConfig = {
       link: "https://nha24hcafe.vercel.app/",
     },
     {
-      title: "Bán Acc Thương Mại Điện Tử",
+      title: "Glass Try On",
       description:
-        "Nền tảng mua bán tài khoản TMĐT với realtime backend, giỏ hàng/checkout và quản trị.",
-      tags: ["Convex", "Next.js", "React", "Tailwind CSS"],
-      link: "https://dttaikhoanso.vercel.app/",
-    },
-    {
-      title: "Visual Novel: Câu chuyện của Kim Cương 2.0",
-      description: "Web game visual novel cơ bản chạy trên trình duyệt.",
-      tags: ["HTML5", "CSS3", "JavaScript", "GitHub Pages"],
-      link: "https://hieubkav.github.io/visual-novel/",
+        "Ứng dụng thử kính ảo sử dụng Face Mesh. Upload ảnh kính 2D để đeo kính trực tiếp, dễ quản trị và gợi ý kính phù hợp khuôn mặt.",
+      tags: ["Face Mesh", "AI Vision", "WebRTC", "JavaScript", "Canvas API"],
+      link: "https://glass.vitrasau.info.vn/try_on/3",
     },
   ],
 
@@ -259,7 +254,7 @@ export const portfolioConfig = {
     {
       title: "GitHub",
       description: "Mã nguồn và các dự án cá nhân.",
-      link: "https://github.com/Hieubkav",
+      link: "https://github.com/hieubkbk10-hue",
     },
     {
       title: "Viblo",

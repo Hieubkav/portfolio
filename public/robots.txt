@@ -7,7 +7,7 @@ User-agent: *
 Disallow: /api
 
 # Host
-Host: https://hieubkav.github.io/HieuCV
+Host: https://tranmanhhieu-portfolio.vercel.app
 
 # Sitemaps
-Sitemap: https://hieubkav.github.io/HieuCV/sitemap.xml
+Sitemap: https://tranmanhhieu-portfolio.vercel.app/sitemap.xml
